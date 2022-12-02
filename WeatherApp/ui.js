@@ -15,7 +15,7 @@ class UI {
         this.location.textContent = `${weather.name}, ${weather.sys.country}`;
         this.description.textContent = weather.weather[0].description;
         this.string.textContent = `${weather.main.temp} \xB0F`;
-        // this.icon.setAttribute('src', 'partly.svg');
+        this.icon.setAttribute('src', 'partly.svg');
         this.humid.textContent = `Relative Humidity: ${weather.main.humidity}%`;
         this.feelsLike.textContent = `Feels Like: ${weather.main.feels_like} \xB0F`;
         this.wind.textContent = `Wind: ${weather.wind.speed} mph`;
